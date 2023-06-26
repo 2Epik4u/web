@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <head>
-    <link rel="icon" href="Pictures/favicon.png" type="image/icon">
+    <link rel="icon" href="cdn/favicon.png" type="image/icon">
     <title>Welcome - 2epik4u</title>
     <meta name="twitter:card" content="player"></meta>
     <meta name="twitter:player" content="https://cdn.discordapp.com/attachments/1031291069029163068/1089714064390897734/ssstwitter.com_1678163493199.mp4"></meta>
     <h1 class= "center" style="color:white;">Welcome to my website. Find out anything the government doesn't want you to know.</h1>
     <a href="https://cyber.dabamos.de/88x31/anythingbut.gif"><img src="https://cyber.dabamos.de/88x31/anythingbut.gif" alt="anything but chrome" class="right"></a>
-    <a href="https://archlinux.org"><img src="https://cyber.dabamos.de/88x31/archlinux.gif" alt="FUCKI YOU LOOKING AT" class="right"></a>
+    <a href="https://archlinux.org"><img src="https://cyber.dabamos.de/88x31/archlinux.gif" alt="FUCKI YOU LOOKING AT" title="FUCK YOI LOOKING AT" class="right"></a>
+    <audio controls autoplay>
+      <source src="cdn/audio.mp3" type="audio/mp3">
 </head>
 
 <style>
     body {
-      background-image: url('Pictures/bo2-art.jpg');
+      background-image: url('cdn/bo2-art.jpg');
       background-repeat: no;
       background-size: 100%;
       
@@ -26,11 +28,33 @@
   padding: 10px;
 }
 
+audio {
+  float: left;
+  width: 100px;
+  padding: 10px;
+}
 .left {
   float: left;
   width: 100px;
   padding: 10px;
 }
 
+div {
+  width: 100px;
+  height: 100px;
+  background-image: url(cdn/cia.jpg);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
 
 </style>
