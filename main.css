@@ -1,0 +1,40 @@
+  body {
+     background-image: url('cdn/bo2-art.jpg');
+     background-repeat: no;
+     background-size: 100%;
+     font-family: bo2font;
+     font-size: 10px;
+  }
+  @font-face {
+    font-family: bo2font;
+    src: url(cdn/bo2.ttf);
+  }
+  .centertxt {
+    text-align: center;
+  }
+  .buttons {
+    padding-left: 10%;
+  }
+  .right {
+    float: right;
+    width: 100px;
+    padding: 10px;
+  }
+  audio {
+    position: fixed;
+    bottom: 0;
+    width: 100;
+  }
+  marquee {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+  
+  }
+  .left {
+    float: left;
+    width: 100px;
+    padding: 10px;
+  }
