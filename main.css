@@ -13,7 +13,8 @@
     text-align: center;
   }
   .buttons {
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 1%;
   }
   .right {
     float: right;
