@@ -1,20 +1,32 @@
   body {
-     background-image: url('cdn/bo2-art.jpg');
+     background-image: url('cdn/epic.jpg');
      background-repeat: no;
-     background-size: 100%;
-     font-family: bo2font;
-     font-size: 10px;
+     background-size: auto;
   }
-  @font-face {
-    font-family: bo2font;
-    src: url(cdn/bo2.ttf);
-  }
+  
   .centertxt {
     text-align: center;
   }
   .buttons {
-    padding-left: 5%;
-    padding-right: 1%;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+  }
+  div .boxbuttons {
+    background-color: #1e1e2e;
+    border-radius: 2%;
+    border: 3px solid #89b4fa;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+  }
+  .boxoftext {
+    background-color: #1e1e2e;
+    border-radius: 2%;
+    border: 3px solid #89b4fa;
+    width: 25%;
+    margin: 5%;
+    padding: 10px;
   }
   .right {
     float: right;
