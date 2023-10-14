@@ -1,7 +1,6 @@
   body {
      background-image: url('cdn/epic.jpg');
-     background-repeat: no;
-     background-size: auto;
+     background-size: 100%;
   }
   
   .centertxt {
@@ -16,7 +15,7 @@
     background-color: #1e1e2e;
     border-radius: 2%;
     border: 3px solid #89b4fa;
-    width: 25%;
+    width: auto;
     margin: auto;
     padding: 10px;
   }
