@@ -8,7 +8,7 @@
     text-align: center;
   }
   .buttons {
-    width: 25%;
+    width: auto;
     margin: auto;
     padding: 10px;
   }
