@@ -1,5 +1,8 @@
-  body {
-     background-image: url('cdn/epic.jpg');
+  * {
+    font-family: Inter, Roboto, sans-serif;
+  } 
+ body {
+     background-color: #1e1e2e;
      background-size: 100%;
   }
   
@@ -13,6 +16,16 @@
   }
   div .boxbuttons {
     background-color: #1e1e2e;
+    border-radius: 2%;
+    border: 3px solid #89b4fa;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+  }
+  div .bottombox {
+    background-color: #1e1e2e;
+    bottom: 0;
+    position: fixed;
     border-radius: 2%;
     border: 3px solid #89b4fa;
     width: auto;
