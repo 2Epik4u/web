@@ -16,7 +16,6 @@
   }
   div .boxbuttons {
     background-color: #1e1e2e;
-    border-radius: 2%;
     border: 3px solid #89b4fa;
     width: auto;
     margin: auto;
@@ -26,7 +25,6 @@
     background-color: #1e1e2e;
     bottom: 0;
     position: fixed;
-    border-radius: 2%;
     border: 3px solid #89b4fa;
     width: auto;
     margin: auto;
@@ -34,7 +32,6 @@
   }
   .boxoftext {
     background-color: #1e1e2e;
-    border-radius: 2%;
     border: 3px solid #89b4fa;
     width: 25%;
     margin: 5%;
