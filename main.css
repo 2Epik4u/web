@@ -1,9 +1,11 @@
   * {
-    font-family: Inter, Roboto, sans-serif;
+    cursor: url("img/epic.png"), auto;
   } 
  body {
      background-color: #1e1e2e;
      background-size: 100%;
+     font-family: Inter, Roboto, sans-serif;
+
   }
   
   .centertxt {
@@ -14,9 +16,16 @@
     margin: auto;
     padding: 10px;
   }
-  div .boxbuttons {
+  .boxbuttons {
     background-color: #1e1e2e;
     border: 3px solid #89b4fa;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+  }
+  .welcome {
+    background-color: #5a7edc;
+    border: 3px solid #00309c;
     width: auto;
     margin: auto;
     padding: 10px;
@@ -47,7 +56,7 @@
     bottom: 0;
     width: 100;
   }
-  marquee {
+  .marquekrabs {
     position: fixed;
     bottom: 0;
     right: 0;
