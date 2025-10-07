@@ -19,13 +19,16 @@ removed the water thing cause it was kind of annoying
     <meta name="twitter:player:width" content="1920">
     <meta name="twitter:image" content="https://2epik4u.lol/img/explode.gif">
 </head>
-  <div class="boxbuttons" style="color: #cdd6f4;">
+  <div id="boxbuttons" class="boxbuttons" style="color: #cdd6f4;">
+    <div id="audio" class="audio">
+          <a href="sfx/birthday.mp3"></a>
+    </div>
     <marquee direction="left" scrollamount="50">
     <h1>2Epik4u</h1>
   </marquee>
   </div>    
   <marquee>
-    <div class="welcome" style="color: #e6f7f9;">
+    <div id="welcome" class="welcome" style="color: #e6f7f9;">
       <h1><i>welcome</i></h1>
     </div>
   </marquee>
@@ -38,8 +41,9 @@ removed the water thing cause it was kind of annoying
       <a href="img/explode.gif">
         <img src="img/krabs.png" width="200" height="200">
     </marquee>
+
     </div>
-  <div class="bottombox">
+  <div id="bottombox" class="bottombox">
     <a onclick="wii()">
       <img src="img/wii.gif" alt="Wii" width="88" height="31"  class="buttons"></a>
     <a href="https://github.com/2Epik4u/web">
@@ -67,6 +71,7 @@ removed the water thing cause it was kind of annoying
       <img src="img/firefox.png" alt="take back the web" width="88" height="31" class="buttons"></a>
     <a href="https://namemc.com/profile/TwoEpik4u.1">
       <img src="img/minecraft.gif" alt="take back the web" width="88" height="31" class="buttons"></a>
+
   </div>
 
   </footer>
@@ -76,8 +81,21 @@ removed the water thing cause it was kind of annoying
 </style>
 
 <script>
+  const date = new Date();
+  if (date.getDate() == "7")
+    if (date.getMonth() == "9")
+      birthday()
+  function birthday() {
+    console.log("its a special day")
+    document.getElementById("bottombox").style.border = "3px solid #FF00FF";
+    document.getElementById("boxbuttons").style.border = "3px solid #FF00FF";
+    document.body.style.backgroundImage="url(img/mariobday.webp)"; // specify the image path here
+    document.body.style.cursor = `url("img/icon_bday.png"), auto`;
+    document.getElementById('audio').innerHTML = '<audio controls autoplay><source src="sfx/birthday.mp3" type="audio/mp3"></audio>';
+
+  }
   function wii() {
-    var audio = new Audio('img/wii.mp3');
+    var audio = new Audio('sfx/wii.mp3');
     audio.play();
     setTimeout('window.location.href = "http://wii.com";', 4000)
   }
