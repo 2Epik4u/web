@@ -6,6 +6,14 @@
      cursor: url("img/icon.png"), auto;
 
   }
+
+  h1 {
+    color: #e6f7f9;
+  }
+  p {
+    color: #5c5f77;
+  }
+
   
   .centertxt {
     text-align: center;
