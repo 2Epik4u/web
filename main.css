@@ -37,6 +37,11 @@
     margin: auto;
     padding: 10px;
   }
+  div .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   div .bottombox {
     background-color: #1e1e2e;
     bottom: 0;
